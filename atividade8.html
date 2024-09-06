@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var idade = [17, 25, 16, 23, 22]
+        var altura = [1.60, 1.72, 1.73,1.70, 1.80]
+        var posicao_id = 0
+        var posicao_al = 0
+
+        idade.reverse()
+        altura.reverse()
+
+        for(posicao_id in idade){
+            for(posicao_al in altura){
+                if (posicao_id == posicao_al){
+                alert("Idade: " + idade[posicao_id] + " e altura: " + altura[posicao_al])
+                }
+            }
+        }
+            
+
+
+
+        
+
+        
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var lista = [1,2,3,4,5,6,7,8,9,10]
+        var soma = 0
+        var qdr = []
+        
+        for(posicao in lista){
+            qdr.push(lista[posicao]*lista[posicao])
+        }
+        for(posicao in qdr){
+            soma =  soma + qdr[posicao] 
+        }
+         alert("A soma: " + soma)
+
+        
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function mostrar() {
+            var lista = [45,20,35]
+            var soma = 0;
+            for (var posicao in lista) {
+                soma += lista[posicao];
+                alert(lista[posicao]);
+
+            }
+            alert('Média: ' + (soma / lista.length).toFixed(2));
+
+        }
+        mostrar();
+      </script>
+</body>
+</html>
